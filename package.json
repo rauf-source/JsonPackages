@@ -1,7 +1,24 @@
 {
-  "Author" : "Abdul Rauf",
-  "Description" :"This project is really awesome" ,
-  "Keywords" :["freecodecamp", "rauf's json" , "api"],
+  "author" : "Abdul Rauf",
+  "description" :"This project is really awesome" ,
+  "keywords" :["freecodecamp", "rauf's json" , "api"],
 	"license" : "MIT",
+	"version" : "1.2.0",
+	//"package": "MAJOR.MINOR.PATCH"
+	"dependencies" : {
+		"package-name" : "version",
+		"express" : "4.14.0",
+		"moment" : "2.10.2",
+//"package": "MAJOR.MINOR.PATCH"
+/*
+version of a package is defined like this
+in the package moment coded above
+2 is MAJOR(which changes when you make major inompatible changes)
+10 is MINOR, which increments new features but doesnt effect what worked befre
+2 in PATCH which increments on bug fixes
+
+
+*/
+	}
 
 }
