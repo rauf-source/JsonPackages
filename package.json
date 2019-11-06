@@ -1,4 +1,7 @@
 {
-  
-"license" : "MIT",
+  "Author" : "Abdul Rauf",
+  "Description" :"This project is really awesome" ,
+  "Keywords" :["freecodecamp", "rauf's json" , "api"],
+	"License" : "MIT",
+
 }
