@@ -7,10 +7,12 @@
 	//"package": "MAJOR.MINOR.PATCH"
 	"dependencies" : {
 		"package-name" : "version",
-		"express" : "4.14.0",
+		"express" : "~4.14.0",
 		"moment" : "2.10.2",
+		"bootstrap" : "^2.3.4",//MINOR RELAESE AUTO 2.x.x
+
 //"package": "MAJOR.MINOR.PATCH"
-/*
+/*	
 version of a package is defined like this
 in the package moment coded above
 2 is MAJOR(which changes when you make major inompatible changes)
@@ -18,6 +20,13 @@ in the package moment coded above
 2 in PATCH which increments on bug fixes
 
 
+*/
+
+/*To allow an npm dependency to update to the latest PATCH version,
+ you can prefix the dependency’s version with the tilde (~) character. 
+Here's an example of how to allow updates to any 1.3.x version.
+used in exprfess version
+1.3.x version x updates automatically
 */
 	}
 
